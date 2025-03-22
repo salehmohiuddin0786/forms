@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: #753434; */
+    background-image: url(geometric-gradient-futuristic-background_23-2149116406\ \(1\).avif);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    background: #753434;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+}
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.show-password {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+    background: none;
+    border: none;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+}
+.captcha-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.captcha {
+    font-size: 20px;
+    font-weight: bold;
+    background: #e0e0e0;
+    padding: 5px 10px;
+    margin-right: 10px;
+    letter-spacing: 3px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
